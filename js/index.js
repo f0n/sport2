@@ -1,5 +1,5 @@
   /* TO DO LIST */
-  $(".tdl-new").bind('keypress', function(e){
+  $(".tdl-new").bind('keyup', function(e){
     var code = (e.keyCode ? e.keyCode : e.which);
     if(code == 13) {
       var v = $(this).val();
